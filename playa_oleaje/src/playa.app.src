@@ -1,0 +1,18 @@
+{application, playa,
+ [{description, "Banderas de playa Tijuana-Rosarito-Ensenada: decision transparente con historial"},
+  {vsn, "0.1.0"},
+  {registered, [playa_sup, playa_store, playa_banderas_sup, playa_reloj, playa_pg]},
+  {mod, {playa_app, []}},
+  {applications, [kernel, stdlib]},
+  {env, [
+     {playas, [tijuana, baja_malibu, rosarito, puerto_nuevo, ensenada_hermosa, ensenada_estero]},
+     {reloj, auto},
+     {tick_ms, 60000},
+     {historial_archivo, undefined},
+     {estado_dir, undefined},
+     {umbrales, #{}},
+     {mareas, []}
+  ]},
+  {modules, []},
+  {licenses, ["Apache-2.0"]},
+  {links, []}]}.
