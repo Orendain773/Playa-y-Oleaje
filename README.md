@@ -103,11 +103,10 @@ marea baja y cadencia de boyas. Detalle en [`docs/DISENO.md`](docs/DISENO.md).
 - [x] Núcleo de reglas, histéresis, cierre sanitario, override
 - [x] Simulación con fallas inyectadas
 - [x] Pruebas de caos (`rebar3 eunit` en verde)
-- [ ] Endpoints HTTP y SSE con cowboy
-- [ ] Métricas `/metrics` y diagnóstico con `recon`
-- [ ] Pantallas en Stitch ([`design/Stitch.md`](design/Stitch.md)) y capturas
+- [x] Endpoints HTTP y SSE con cowboy
+- [x] Métricas `/metrics` y diagnóstico con `recon`
+- [x] Pantallas en Stitch ([`design/Stitch.md`](design/Stitch.md)) y capturas
 - [ ] Release + systemd
-- [ ] Calibración de umbrales con salvavidas reales
 
 
 ## Aviso
