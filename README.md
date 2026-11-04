@@ -105,7 +105,7 @@ marea baja y cadencia de boyas. Detalle en [`docs/DISENO.md`](docs/DISENO.md).
 - [x] Pruebas de caos (`rebar3 eunit` en verde)
 - [ ] Endpoints HTTP y SSE con cowboy
 - [ ] Métricas `/metrics` y diagnóstico con `recon`
-- [ ] Pantallas en Stitch ([`design/PROMPT_STITCH.md`](design/PROMPT_STITCH.md)) y capturas
+- [ ] Pantallas en Stitch ([`design/Stitch.md`](design/Stitch.md)) y capturas
 - [ ] Release + systemd
 - [ ] Calibración de umbrales con salvavidas reales
 
